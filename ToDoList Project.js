@@ -8,7 +8,7 @@ const listFooter = document.querySelector('.list_footer')
 const deleteDoneItem = document.querySelector('.deleteDoneItem')
 const checkbox = document.querySelector('.checkbox')
 const tab =document.querySelector('.tab')
-// 儲存代辦事項狀態的陣列
+// 陣列:儲存代辦事項狀態的
 const checkboxObj = document.querySelectorAll('.checkboxObj')
 
 // 產生新的待辦事項清單
