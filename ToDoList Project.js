@@ -9,7 +9,7 @@ let Data =[]
 let filterData =[]
 let tabStatus = 'all'
 
-// 資料初始化
+// list_content資料初始化
 function renderData(d){
     ListStr = ''
     if(d.length ==0){
