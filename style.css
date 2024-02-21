@@ -97,6 +97,7 @@
         text-align: center;
         color: #9f9a91;
         font-size: 14px;
+        cursor: pointer
     }
 
     .tab li {
@@ -121,18 +122,18 @@
         }
     }
 
-    .list li {
+    .list_content li {
         position: relative;
         padding-right: 2rem;
     }
 
     @media (max-width: 575px) {
-        .list li {
+        .list_content li {
             padding-right: 0;
         }
     }
 
-    .list li a.delete {
+    .list_content li a.delete {
         position: absolute;
         opacity: 0;
         right: 0;
@@ -149,14 +150,14 @@
     }
 
     @media (max-width: 575px) {
-        .list li a.delete {
+        .list_content li a.delete {
             opacity: 1;
             width: 12px;
             height: 12px;
         }
     }
 
-    .list li:hover a.delete {
+    .list_content li:hover a.delete {
         opacity: 1;
     }
 
